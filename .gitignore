@@ -1,0 +1,32 @@
+# Python environment
+.venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Tool caches and test outputs
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local or non-public material
+private_material/
+data/local/
+data/
+
+# Generated files
+outputs/
+
+# macOS
+.DS_Store
